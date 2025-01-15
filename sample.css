@@ -1,0 +1,112 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+body{
+    background-color:burlywood;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size:x-large;
+}
+.container{
+    width: 80%;
+    margin:auto;
+    overflow: hidden;
+}
+header{
+    background-color:rgb(188, 134, 89);
+    color:white;
+    padding: 15px 0px;
+    font-family:'Times New Roman', Times, serif;
+    font-size:x-large;
+    text-decoration: none;
+}
+header .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header h1{
+    margin: 0%;
+}
+header nav{
+    margin:0%;
+}
+header .nav-bar{
+    list-style: none;
+    margin: 0%;
+    padding: 0%;
+    display: flex;
+}
+header .nav-bar{
+    margin-left: 20px;
+}
+header .nav-bar a{
+    color:white;
+    text-decoration: none;
+    padding: 5px 10px;
+}
+header.nav-bar a:hover{
+    background: cornflowerblue;
+}
+section{
+    margin: 30px;
+    padding: 10px 0px;
+}
+#home img {
+    position: absolute; /* Positions the image outside of normal document flow */
+    right: 200px; /* Adjusts the image position from the right side of the screen */
+    top: 40%; /* Moves the image to the center vertically */
+    transform: translateY(-50%); /* Ensures the image is perfectly centered vertically */
+    max-width: 500%; /* Controls the image size */
+    height: auto;
+    border-radius: 50%;
+
+  }
+#about h2{
+    text-align:right;
+}
+#about p{
+    text-align: justify;
+    text-decoration: none;
+}
+#education img{
+    position: absolute;
+    right: 10px;
+    top: 135%;
+    transform: translateY(-50%);
+    max-width: 25%; 
+    height: auto;
+    border-radius: 50%;
+    margin: 15%;
+}
+
+.container ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+form input, form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+form button {
+    display: inline-block;
+    background: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+form button:hover {
+    background: #0779e4;
+}
